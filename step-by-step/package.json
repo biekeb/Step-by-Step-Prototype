@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://biekeb.github.io/Step-by-Step-Prototype",
+    "homepage": "https://biekeb.github.io/Step-by-Step-Prototype/tree/main/step-by-step",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
