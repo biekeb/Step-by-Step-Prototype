@@ -8,13 +8,11 @@ function Input(props){
   const handleChange = (e) => {
 
     setName(e.target.value);
-    //props.onSubmit(name);
 }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     props.onSubmit(name)
-    //onNext({ name, email });
   };
 
   return (
